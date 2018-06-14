@@ -101,7 +101,7 @@ public class a {
 	public static class StoreBuilder {
 
 		List<Movie> movieList = new LinkedList<Movie>();
-		
+
 		public StoreBuilder(Movie[] movieList) {
 			this.movieList.addAll(Arrays.asList(movieList));
 		}
